@@ -15,7 +15,6 @@ Ações que serão executadas quando o evento de click ocorrer:
 const listaSelecaoPokemons = document.querySelectorAll(".pokemon"); 
 const pokemonsCard = document.querySelectorAll(".cartao-pokemon"); 
 
-
 listaSelecaoPokemons.forEach((pokemon) => { 
   pokemon.addEventListener("click", () => {
     const cartaoPokemonAberto = document.querySelector(".aberto");
